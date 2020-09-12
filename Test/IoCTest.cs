@@ -9,7 +9,7 @@ namespace Test
 	{
         public static void Register(UnityContainer container)
         {
-            container.RegisterType<ILog, LogToDebugAndConsole>();
+            container.RegisterType<ILog, LogToConsoleAndDebug>();
 
             container.RegisterSingleton<TestSettings>();
             container.RegisterFactory<IMyToolSettings>(c => IoC.Get<TestSettings>());
