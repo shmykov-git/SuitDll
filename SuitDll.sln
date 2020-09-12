@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.1145
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuitDll", "SuitDll\SuitDll.csproj", "{C3C56E2F-094A-4AC3-98FD-08F49BAD4887}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{D71E8ECB-3A3E-4121-99CF-C45EA240FD44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C3C56E2F-094A-4AC3-98FD-08F49BAD4887}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3C56E2F-094A-4AC3-98FD-08F49BAD4887}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3C56E2F-094A-4AC3-98FD-08F49BAD4887}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D71E8ECB-3A3E-4121-99CF-C45EA240FD44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D71E8ECB-3A3E-4121-99CF-C45EA240FD44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D71E8ECB-3A3E-4121-99CF-C45EA240FD44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D71E8ECB-3A3E-4121-99CF-C45EA240FD44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
